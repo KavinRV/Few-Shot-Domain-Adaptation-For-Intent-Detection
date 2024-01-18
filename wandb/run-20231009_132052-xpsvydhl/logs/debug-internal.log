@@ -1,0 +1,700 @@
+2023-10-09 13:20:52,680 INFO    StreamThr :2505772 [internal.py:wandb_internal():86] W&B internal server running at pid: 2505772, started at: 2023-10-09 13:20:52.679540
+2023-10-09 13:20:52,681 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: status
+2023-10-09 13:20:52,682 INFO    WriterThread:2505772 [datastore.py:open_for_write():85] open: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/run-xpsvydhl.wandb
+2023-10-09 13:20:52,683 DEBUG   SenderThread:2505772 [sender.py:send():380] send: header
+2023-10-09 13:20:52,683 DEBUG   SenderThread:2505772 [sender.py:send():380] send: run
+2023-10-09 13:20:53,432 INFO    SenderThread:2505772 [dir_watcher.py:__init__():211] watching files in: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files
+2023-10-09 13:20:53,432 INFO    SenderThread:2505772 [sender.py:_start_run_threads():1122] run started: xpsvydhl with start time 1696837852.679664
+2023-10-09 13:20:53,437 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: check_version
+2023-10-09 13:20:53,437 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: check_version
+2023-10-09 13:20:53,680 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: run_start
+2023-10-09 13:20:53,686 DEBUG   HandlerThread:2505772 [system_info.py:__init__():32] System info init
+2023-10-09 13:20:53,686 DEBUG   HandlerThread:2505772 [system_info.py:__init__():47] System info init done
+2023-10-09 13:20:53,686 INFO    HandlerThread:2505772 [system_monitor.py:start():194] Starting system monitor
+2023-10-09 13:20:53,686 INFO    SystemMonitor:2505772 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-09 13:20:53,687 INFO    HandlerThread:2505772 [system_monitor.py:probe():214] Collecting system info
+2023-10-09 13:20:53,687 INFO    SystemMonitor:2505772 [interfaces.py:start():190] Started cpu monitoring
+2023-10-09 13:20:53,687 INFO    SystemMonitor:2505772 [interfaces.py:start():190] Started disk monitoring
+2023-10-09 13:20:53,688 INFO    SystemMonitor:2505772 [interfaces.py:start():190] Started gpu monitoring
+2023-10-09 13:20:53,689 INFO    SystemMonitor:2505772 [interfaces.py:start():190] Started memory monitoring
+2023-10-09 13:20:53,689 INFO    SystemMonitor:2505772 [interfaces.py:start():190] Started network monitoring
+2023-10-09 13:20:53,749 DEBUG   HandlerThread:2505772 [system_info.py:probe():196] Probing system
+2023-10-09 13:20:53,750 DEBUG   HandlerThread:2505772 [gitlib.py:_init_repo():53] git repository is invalid
+2023-10-09 13:20:53,750 DEBUG   HandlerThread:2505772 [system_info.py:probe():244] Probing system done
+2023-10-09 13:20:53,750 DEBUG   HandlerThread:2505772 [system_monitor.py:probe():223] {'os': 'Linux-5.4.0-121-generic-x86_64-with-glibc2.31', 'python': '3.10.13', 'heartbeatAt': '2023-10-09T07:50:53.749313', 'startedAt': '2023-10-09T07:50:52.675665', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/raid/kavin-intern-maunendra/GenRet/train_da.py', 'codePathLocal': 'train_da.py', 'codePath': 'train_da.py', 'host': 'dgx1-2', 'username': 'kavin-intern-maunendra', 'executable': '/raid/kavin-intern-maunendra/anaconda3/envs/wow/bin/python', 'cpu_count': 40, 'cpu_count_logical': 80, 'cpu_freq': {'current': 3.0300625000000005, 'min': 1200.0, 'max': 3600.0}, 'cpu_freq_per_core': [{'current': 2.71, 'min': 1200.0, 'max': 3600.0}, {'current': 3.014, 'min': 1200.0, 'max': 3600.0}, {'current': 2.848, 'min': 1200.0, 'max': 3600.0}, {'current': 2.805, 'min': 1200.0, 'max': 3600.0}, {'current': 2.868, 'min': 1200.0, 'max': 3600.0}, {'current': 2.731, 'min': 1200.0, 'max': 3600.0}, {'current': 2.742, 'min': 1200.0, 'max': 3600.0}, {'current': 3.108, 'min': 1200.0, 'max': 3600.0}, {'current': 2.699, 'min': 1200.0, 'max': 3600.0}, {'current': 3.177, 'min': 1200.0, 'max': 3600.0}, {'current': 2.7, 'min': 1200.0, 'max': 3600.0}, {'current': 2.971, 'min': 1200.0, 'max': 3600.0}, {'current': 2.695, 'min': 1200.0, 'max': 3600.0}, {'current': 2.71, 'min': 1200.0, 'max': 3600.0}, {'current': 2.852, 'min': 1200.0, 'max': 3600.0}, {'current': 2.741, 'min': 1200.0, 'max': 3600.0}, {'current': 2.75, 'min': 1200.0, 'max': 3600.0}, {'current': 2.723, 'min': 1200.0, 'max': 3600.0}, {'current': 2.699, 'min': 1200.0, 'max': 3600.0}, {'current': 2.778, 'min': 1200.0, 'max': 3600.0}, {'current': 3.183, 'min': 1200.0, 'max': 3600.0}, {'current': 3.092, 'min': 1200.0, 'max': 3600.0}, {'current': 3.128, 'min': 1200.0, 'max': 3600.0}, {'current': 2.828, 'min': 1200.0, 'max': 3600.0}, {'current': 3.233, 'min': 1200.0, 'max': 3600.0}, {'current': 2.928, 'min': 1200.0, 'max': 3600.0}, {'current': 2.849, 'min': 1200.0, 'max': 3600.0}, {'current': 3.228, 'min': 1200.0, 'max': 3600.0}, {'current': 2.844, 'min': 1200.0, 'max': 3600.0}, {'current': 2.746, 'min': 1200.0, 'max': 3600.0}, {'current': 2.774, 'min': 1200.0, 'max': 3600.0}, {'current': 2.76, 'min': 1200.0, 'max': 3600.0}, {'current': 2.815, 'min': 1200.0, 'max': 3600.0}, {'current': 3.189, 'min': 1200.0, 'max': 3600.0}, {'current': 2.726, 'min': 1200.0, 'max': 3600.0}, {'current': 2.799, 'min': 1200.0, 'max': 3600.0}, {'current': 2.779, 'min': 1200.0, 'max': 3600.0}, {'current': 2.803, 'min': 1200.0, 'max': 3600.0}, {'current': 2.827, 'min': 1200.0, 'max': 3600.0}, {'current': 3.092, 'min': 1200.0, 'max': 3600.0}, {'current': 2.832, 'min': 1200.0, 'max': 3600.0}, {'current': 3.072, 'min': 1200.0, 'max': 3600.0}, {'current': 2.711, 'min': 1200.0, 'max': 3600.0}, {'current': 2.824, 'min': 1200.0, 'max': 3600.0}, {'current': 3.179, 'min': 1200.0, 'max': 3600.0}, {'current': 2.713, 'min': 1200.0, 'max': 3600.0}, {'current': 2.713, 'min': 1200.0, 'max': 3600.0}, {'current': 2.976, 'min': 1200.0, 'max': 3600.0}, {'current': 2.696, 'min': 1200.0, 'max': 3600.0}, {'current': 2.692, 'min': 1200.0, 'max': 3600.0}, {'current': 2.695, 'min': 1200.0, 'max': 3600.0}, {'current': 3.08, 'min': 1200.0, 'max': 3600.0}, {'current': 2.697, 'min': 1200.0, 'max': 3600.0}, {'current': 2.697, 'min': 1200.0, 'max': 3600.0}, {'current': 3.101, 'min': 1200.0, 'max': 3600.0}, {'current': 2.708, 'min': 1200.0, 'max': 3600.0}, {'current': 2.711, 'min': 1200.0, 'max': 3600.0}, {'current': 2.73, 'min': 1200.0, 'max': 3600.0}, {'current': 3.179, 'min': 1200.0, 'max': 3600.0}, {'current': 2.722, 'min': 1200.0, 'max': 3600.0}, {'current': 3.282, 'min': 1200.0, 'max': 3600.0}, {'current': 3.166, 'min': 1200.0, 'max': 3600.0}, {'current': 2.787, 'min': 1200.0, 'max': 3600.0}, {'current': 3.277, 'min': 1200.0, 'max': 3600.0}, {'current': 3.127, 'min': 1200.0, 'max': 3600.0}, {'current': 2.984, 'min': 1200.0, 'max': 3600.0}, {'current': 2.899, 'min': 1200.0, 'max': 3600.0}, {'current': 2.978, 'min': 1200.0, 'max': 3600.0}, {'current': 2.9, 'min': 1200.0, 'max': 3600.0}, {'current': 2.912, 'min': 1200.0, 'max': 3600.0}, {'current': 2.968, 'min': 1200.0, 'max': 3600.0}, {'current': 2.771, 'min': 1200.0, 'max': 3600.0}, {'current': 2.856, 'min': 1200.0, 'max': 3600.0}, {'current': 3.245, 'min': 1200.0, 'max': 3600.0}, {'current': 2.844, 'min': 1200.0, 'max': 3600.0}, {'current': 3.224, 'min': 1200.0, 'max': 3600.0}, {'current': 2.921, 'min': 1200.0, 'max': 3600.0}, {'current': 2.961, 'min': 1200.0, 'max': 3600.0}, {'current': 2.897, 'min': 1200.0, 'max': 3600.0}, {'current': 3.069, 'min': 1200.0, 'max': 3600.0}], 'disk': {'/': {'total': 437.0158004760742, 'used': 364.3760223388672}}, 'gpu': 'Tesla V100-SXM2-32GB', 'gpu_count': 8, 'gpu_devices': [{'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}], 'memory': {'total': 503.77836990356445}}
+2023-10-09 13:20:53,751 INFO    HandlerThread:2505772 [system_monitor.py:probe():224] Finished collecting system info
+2023-10-09 13:20:53,751 INFO    HandlerThread:2505772 [system_monitor.py:probe():227] Publishing system info
+2023-10-09 13:20:53,751 DEBUG   HandlerThread:2505772 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-09 13:20:53,751 DEBUG   HandlerThread:2505772 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-09 13:20:53,751 DEBUG   HandlerThread:2505772 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-09 13:20:54,434 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_created():271] file/dir created: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/conda-environment.yaml
+2023-10-09 13:20:54,434 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_created():271] file/dir created: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/requirements.txt
+2023-10-09 13:20:57,208 DEBUG   HandlerThread:2505772 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-09 13:20:57,209 INFO    HandlerThread:2505772 [system_monitor.py:probe():229] Finished publishing system info
+2023-10-09 13:20:57,211 DEBUG   SenderThread:2505772 [sender.py:send():380] send: files
+2023-10-09 13:20:57,211 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-09 13:20:57,216 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-09 13:20:57,217 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: stop_status
+2023-10-09 13:20:57,218 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-09 13:20:57,433 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/conda-environment.yaml
+2023-10-09 13:20:57,433 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_created():271] file/dir created: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-metadata.json
+2023-10-09 13:20:57,651 DEBUG   SenderThread:2505772 [sender.py:send():380] send: telemetry
+2023-10-09 13:20:58,339 INFO    wandb-upload_0:2505772 [upload_job.py:push():131] Uploaded file /tmp/tmpnldv1tmxwandb/pidgchdq-wandb-metadata.json
+2023-10-09 13:20:58,651 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 13:21:03,652 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 13:21:08,654 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 13:21:09,436 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_created():271] file/dir created: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/output.log
+2023-10-09 13:21:10,902 DEBUG   SenderThread:2505772 [sender.py:send():380] send: config
+2023-10-09 13:21:10,903 DEBUG   SenderThread:2505772 [sender.py:send():380] send: metric
+2023-10-09 13:21:10,903 DEBUG   SenderThread:2505772 [sender.py:send():380] send: telemetry
+2023-10-09 13:21:10,904 DEBUG   SenderThread:2505772 [sender.py:send():380] send: metric
+2023-10-09 13:21:10,904 WARNING SenderThread:2505772 [sender.py:send_metric():1329] Seen metric with glob (shouldn't happen)
+2023-10-09 13:21:11,437 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/output.log
+2023-10-09 13:21:11,569 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:11,570 DEBUG   SenderThread:2505772 [sender.py:send():380] send: metric
+2023-10-09 13:21:11,571 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:11,571 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:11,571 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:11,952 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:11,953 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:11,953 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:11,953 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:12,216 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-09 13:21:12,217 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: stop_status
+2023-10-09 13:21:12,218 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-09 13:21:12,336 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:12,437 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_created():271] file/dir created: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:12,574 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:12,574 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:12,575 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:12,669 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:12,669 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:12,670 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:12,670 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:12,982 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:12,982 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:12,983 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:12,983 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:13,323 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:13,324 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:13,324 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:13,324 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:13,438 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:13,438 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/output.log
+2023-10-09 13:21:13,785 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:13,786 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:13,786 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:13,786 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 13:21:13,786 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:14,274 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:14,274 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:14,275 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:14,275 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:14,438 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:14,671 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:14,672 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:14,672 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:14,672 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:15,062 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:15,063 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:15,063 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:15,064 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:15,438 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:15,439 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:15,440 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:15,440 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:15,440 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:15,806 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:15,807 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:15,807 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:15,807 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:16,150 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:16,151 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:16,151 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:16,151 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:16,439 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:16,490 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:16,490 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:16,490 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:16,491 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:16,851 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:16,851 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:16,851 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:16,852 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:17,251 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:17,252 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:17,252 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:17,253 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:17,439 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:17,649 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:17,650 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:17,650 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:17,650 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:18,038 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:18,039 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:18,039 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:18,039 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:18,439 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:18,469 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:18,470 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:18,470 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:18,471 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:19,016 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:19,017 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:19,017 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:19,017 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 13:21:19,017 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:19,440 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:19,510 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:19,510 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:19,510 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:19,512 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:19,900 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:19,900 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:19,901 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:19,901 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:20,278 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:20,279 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:20,279 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:20,279 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:20,440 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:20,669 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:20,669 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:20,669 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:20,670 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:21,037 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:21,038 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:21,038 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:21,039 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:21,386 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:21,387 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:21,387 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:21,387 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:21,440 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:21,784 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:21,785 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:21,785 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:21,787 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:22,192 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:22,193 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:22,193 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:22,193 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:22,441 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:22,579 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:22,580 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:22,580 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:22,580 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:22,979 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:22,979 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:22,979 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:22,980 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:23,378 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:23,379 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:23,379 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:23,380 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:23,441 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:23,844 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:23,845 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:23,845 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:23,846 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:24,171 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 13:21:24,310 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:24,442 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:24,575 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:24,575 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:24,576 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:24,706 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:24,707 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:24,707 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:24,708 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:25,148 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:25,149 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:25,149 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:25,150 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:25,442 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:25,443 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/output.log
+2023-10-09 13:21:25,443 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/config.yaml
+2023-10-09 13:21:25,646 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:25,647 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:25,647 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:25,647 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:26,068 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:26,069 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:26,069 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:26,071 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:26,442 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:26,493 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:26,494 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:26,494 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:26,494 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:26,892 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:26,893 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:26,893 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:26,893 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:27,308 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:27,308 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:27,309 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:27,309 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-09 13:21:27,309 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-09 13:21:27,310 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:27,310 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: stop_status
+2023-10-09 13:21:27,443 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:27,738 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:27,739 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:27,739 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:27,739 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:28,148 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:28,148 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:28,149 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:28,150 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:28,443 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:28,507 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:28,507 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:28,508 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:28,508 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:28,951 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:28,951 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:28,952 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:28,952 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:29,444 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:29,498 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:29,499 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:29,499 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:29,500 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:29,998 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:29,999 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:29,999 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:29,999 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 13:21:30,000 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:30,444 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:30,449 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:30,449 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:30,449 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:30,451 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:30,945 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:30,945 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:30,946 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:30,946 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:31,344 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:31,345 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:31,345 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:31,345 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:31,444 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:31,790 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:31,791 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:31,791 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:31,791 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:32,271 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:32,272 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:32,272 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:32,272 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:32,444 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:32,650 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:32,651 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:32,651 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:32,652 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:33,050 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:33,050 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:33,051 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:33,051 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:33,445 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:33,464 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:33,465 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:33,465 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:33,465 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:33,952 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:33,953 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:33,953 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:33,953 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:34,327 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:34,327 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:34,328 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:34,328 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:34,445 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:34,706 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:34,707 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:34,707 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:34,708 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:35,096 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:35,096 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:35,097 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:35,097 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 13:21:35,097 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:35,445 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:35,461 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:35,462 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:35,462 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:35,462 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:35,831 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:35,831 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:35,832 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:35,832 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:36,226 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:36,227 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:36,227 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:36,227 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:36,446 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:36,628 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:36,628 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:36,628 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:36,629 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:37,054 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:37,055 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:37,055 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:37,056 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:37,446 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:37,465 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:37,465 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:37,465 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:37,466 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:37,883 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:37,884 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:37,884 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:37,884 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:38,277 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:38,278 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:38,278 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:38,279 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:38,446 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:38,698 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:38,699 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:38,699 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:38,699 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:39,101 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:39,101 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:39,102 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:39,104 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:39,447 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:39,447 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/output.log
+2023-10-09 13:21:39,495 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:39,496 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:39,496 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:39,496 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:39,888 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:39,889 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:39,889 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:39,889 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:40,288 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:40,288 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:40,289 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:40,289 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 13:21:40,289 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:40,447 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:40,693 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:40,694 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:40,694 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:40,694 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:41,095 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:41,095 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:41,095 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:41,096 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:41,447 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:41,529 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:41,529 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:41,530 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:41,531 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:41,982 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:41,983 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:41,983 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:41,983 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:42,397 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:42,397 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:42,397 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-09 13:21:42,398 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:42,398 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-09 13:21:42,399 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:42,399 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: stop_status
+2023-10-09 13:21:42,447 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:42,800 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:42,801 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:42,801 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:42,801 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:43,246 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:43,247 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:43,247 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:43,247 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:43,448 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:43,742 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:43,743 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:43,743 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:43,744 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:44,120 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:44,120 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:44,121 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:44,121 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:44,448 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:44,509 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:44,510 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:44,510 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:44,510 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:44,911 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:44,911 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:44,911 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:44,912 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:45,297 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:45,298 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:45,298 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:45,298 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 13:21:45,298 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:45,448 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:45,677 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:45,678 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:45,678 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:45,678 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:46,059 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:46,060 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:46,060 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:46,062 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:46,449 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:46,487 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:46,488 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:46,488 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:46,488 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:46,867 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:46,868 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:46,868 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:46,868 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:47,282 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:47,282 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:47,283 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:47,283 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:47,449 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:47,758 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:47,759 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:47,759 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:47,759 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:48,123 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:48,124 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:48,124 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:48,125 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:48,449 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:48,512 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:48,513 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:48,513 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:48,514 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:48,905 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:48,906 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:48,906 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:48,906 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:49,295 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:49,296 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:49,296 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:49,297 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:49,449 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:49,681 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:49,681 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:49,682 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:49,682 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:50,100 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:50,100 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:50,100 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:50,101 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:50,450 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:50,574 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:50,574 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:50,575 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:50,576 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 13:21:50,576 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:51,112 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:51,112 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:51,112 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:51,113 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:51,450 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:51,626 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:51,627 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:51,627 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:51,628 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:52,037 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:52,038 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:52,038 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:52,038 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:52,372 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:52,373 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:52,373 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:52,373 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:52,450 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:52,768 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:52,769 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:52,769 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:52,769 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:53,226 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:53,227 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:53,227 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:53,227 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:53,451 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:53,451 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/output.log
+2023-10-09 13:21:53,661 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:53,662 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:53,662 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:53,662 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:53,689 DEBUG   SystemMonitor:2505772 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-09 13:21:53,691 DEBUG   SenderThread:2505772 [sender.py:send():380] send: stats
+2023-10-09 13:21:54,086 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:54,087 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:54,087 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:54,087 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:54,451 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:54,520 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:54,520 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:54,520 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:54,521 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:54,904 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:54,904 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:54,905 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:54,905 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:55,296 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:55,296 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:55,296 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:55,297 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:55,451 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:55,712 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-09 13:21:55,713 DEBUG   SenderThread:2505772 [sender.py:send():380] send: history
+2023-10-09 13:21:55,713 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: summary_record
+2023-10-09 13:21:55,713 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 13:21:55,714 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:55,945 DEBUG   SenderThread:2505772 [sender.py:send():380] send: exit
+2023-10-09 13:21:55,945 INFO    SenderThread:2505772 [sender.py:send_exit():585] handling exit code: 255
+2023-10-09 13:21:55,946 INFO    SenderThread:2505772 [sender.py:send_exit():587] handling runtime: 62
+2023-10-09 13:21:55,946 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:55,946 INFO    SenderThread:2505772 [sender.py:send_exit():593] send defer
+2023-10-09 13:21:55,946 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 13:21:55,946 INFO    HandlerThread:2505772 [handler.py:handle_request_defer():172] handle defer: 0
+2023-10-09 13:21:55,947 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: defer
+2023-10-09 13:21:55,947 INFO    SenderThread:2505772 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-10-09 13:21:55,947 INFO    SenderThread:2505772 [sender.py:transition_state():613] send defer: 1
+2023-10-09 13:21:55,947 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 13:21:55,947 INFO    HandlerThread:2505772 [handler.py:handle_request_defer():172] handle defer: 1
+2023-10-09 13:21:55,947 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: defer
+2023-10-09 13:21:55,947 INFO    SenderThread:2505772 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-10-09 13:21:55,947 INFO    SenderThread:2505772 [sender.py:transition_state():613] send defer: 2
+2023-10-09 13:21:55,947 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 13:21:55,948 INFO    HandlerThread:2505772 [handler.py:handle_request_defer():172] handle defer: 2
+2023-10-09 13:21:55,948 INFO    HandlerThread:2505772 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-09 13:21:55,948 DEBUG   SystemMonitor:2505772 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-09 13:21:55,949 DEBUG   SystemMonitor:2505772 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-09 13:21:55,950 INFO    HandlerThread:2505772 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-09 13:21:55,950 INFO    HandlerThread:2505772 [interfaces.py:finish():202] Joined disk monitor
+2023-10-09 13:21:56,452 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:57,395 INFO    HandlerThread:2505772 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-09 13:21:57,396 INFO    HandlerThread:2505772 [interfaces.py:finish():202] Joined memory monitor
+2023-10-09 13:21:57,396 INFO    HandlerThread:2505772 [interfaces.py:finish():202] Joined network monitor
+2023-10-09 13:21:57,396 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-09 13:21:57,397 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: defer
+2023-10-09 13:21:57,397 INFO    SenderThread:2505772 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-10-09 13:21:57,397 INFO    SenderThread:2505772 [sender.py:transition_state():613] send defer: 3
+2023-10-09 13:21:57,397 DEBUG   SenderThread:2505772 [sender.py:send():380] send: stats
+2023-10-09 13:21:57,397 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 13:21:57,398 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: poll_exit
+2023-10-09 13:21:57,398 INFO    HandlerThread:2505772 [handler.py:handle_request_defer():172] handle defer: 3
+2023-10-09 13:21:57,399 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: defer
+2023-10-09 13:21:57,399 INFO    SenderThread:2505772 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-10-09 13:21:57,399 INFO    SenderThread:2505772 [sender.py:transition_state():613] send defer: 4
+2023-10-09 13:21:57,399 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 13:21:57,399 INFO    HandlerThread:2505772 [handler.py:handle_request_defer():172] handle defer: 4
+2023-10-09 13:21:57,400 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: defer
+2023-10-09 13:21:57,400 INFO    SenderThread:2505772 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-10-09 13:21:57,400 INFO    SenderThread:2505772 [sender.py:transition_state():613] send defer: 5
+2023-10-09 13:21:57,400 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 13:21:57,400 INFO    HandlerThread:2505772 [handler.py:handle_request_defer():172] handle defer: 5
+2023-10-09 13:21:57,400 DEBUG   SenderThread:2505772 [sender.py:send():380] send: summary
+2023-10-09 13:21:57,401 INFO    SenderThread:2505772 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 13:21:57,401 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: defer
+2023-10-09 13:21:57,401 INFO    SenderThread:2505772 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-10-09 13:21:57,401 INFO    SenderThread:2505772 [sender.py:transition_state():613] send defer: 6
+2023-10-09 13:21:57,401 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 13:21:57,401 INFO    HandlerThread:2505772 [handler.py:handle_request_defer():172] handle defer: 6
+2023-10-09 13:21:57,402 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: defer
+2023-10-09 13:21:57,402 INFO    SenderThread:2505772 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-10-09 13:21:57,402 INFO    SenderThread:2505772 [sender.py:transition_state():613] send defer: 7
+2023-10-09 13:21:57,402 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 13:21:57,402 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 13:21:57,402 INFO    HandlerThread:2505772 [handler.py:handle_request_defer():172] handle defer: 7
+2023-10-09 13:21:57,402 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: defer
+2023-10-09 13:21:57,402 INFO    SenderThread:2505772 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-10-09 13:21:57,452 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:21:57,452 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/output.log
+2023-10-09 13:21:57,946 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-09 13:21:58,818 INFO    SenderThread:2505772 [sender.py:transition_state():613] send defer: 8
+2023-10-09 13:21:58,818 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: poll_exit
+2023-10-09 13:21:58,818 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 13:21:58,818 INFO    HandlerThread:2505772 [handler.py:handle_request_defer():172] handle defer: 8
+2023-10-09 13:21:58,819 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: defer
+2023-10-09 13:21:58,819 INFO    SenderThread:2505772 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-10-09 13:21:58,819 INFO    SenderThread:2505772 [job_builder.py:build():281] Attempting to build job artifact
+2023-10-09 13:21:58,820 INFO    SenderThread:2505772 [job_builder.py:_get_source_type():404] no source found
+2023-10-09 13:21:58,820 INFO    SenderThread:2505772 [sender.py:transition_state():613] send defer: 9
+2023-10-09 13:21:58,820 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 13:21:58,820 INFO    HandlerThread:2505772 [handler.py:handle_request_defer():172] handle defer: 9
+2023-10-09 13:21:58,821 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: defer
+2023-10-09 13:21:58,821 INFO    SenderThread:2505772 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-10-09 13:21:58,821 INFO    SenderThread:2505772 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-09 13:21:58,947 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-09 13:21:59,453 INFO    Thread-12 :2505772 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/output.log
+2023-10-09 13:21:59,453 INFO    SenderThread:2505772 [dir_watcher.py:finish():388] scan: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files
+2023-10-09 13:21:59,453 INFO    SenderThread:2505772 [dir_watcher.py:finish():402] scan save: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/output.log output.log
+2023-10-09 13:21:59,453 INFO    SenderThread:2505772 [dir_watcher.py:finish():402] scan save: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/conda-environment.yaml conda-environment.yaml
+2023-10-09 13:21:59,454 INFO    SenderThread:2505772 [dir_watcher.py:finish():402] scan save: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-metadata.json wandb-metadata.json
+2023-10-09 13:21:59,454 INFO    SenderThread:2505772 [dir_watcher.py:finish():402] scan save: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/config.yaml config.yaml
+2023-10-09 13:21:59,458 INFO    SenderThread:2505772 [dir_watcher.py:finish():402] scan save: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/requirements.txt requirements.txt
+2023-10-09 13:21:59,458 INFO    SenderThread:2505772 [dir_watcher.py:finish():402] scan save: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json wandb-summary.json
+2023-10-09 13:21:59,460 INFO    SenderThread:2505772 [sender.py:transition_state():613] send defer: 10
+2023-10-09 13:21:59,461 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: poll_exit
+2023-10-09 13:21:59,462 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 13:21:59,465 INFO    HandlerThread:2505772 [handler.py:handle_request_defer():172] handle defer: 10
+2023-10-09 13:21:59,466 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: defer
+2023-10-09 13:21:59,466 INFO    SenderThread:2505772 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-10-09 13:21:59,466 INFO    SenderThread:2505772 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-09 13:21:59,947 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-09 13:21:59,948 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: poll_exit
+2023-10-09 13:22:00,112 INFO    wandb-upload_0:2505772 [upload_job.py:push():131] Uploaded file /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/output.log
+2023-10-09 13:22:00,328 INFO    wandb-upload_1:2505772 [upload_job.py:push():131] Uploaded file /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/conda-environment.yaml
+2023-10-09 13:22:00,511 INFO    wandb-upload_4:2505772 [upload_job.py:push():131] Uploaded file /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/wandb-summary.json
+2023-10-09 13:22:00,557 INFO    wandb-upload_2:2505772 [upload_job.py:push():131] Uploaded file /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/config.yaml
+2023-10-09 13:22:00,574 INFO    wandb-upload_3:2505772 [upload_job.py:push():131] Uploaded file /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/files/requirements.txt
+2023-10-09 13:22:00,775 INFO    Thread-11 (_thread_body):2505772 [sender.py:transition_state():613] send defer: 11
+2023-10-09 13:22:00,775 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 13:22:00,775 INFO    HandlerThread:2505772 [handler.py:handle_request_defer():172] handle defer: 11
+2023-10-09 13:22:00,776 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: defer
+2023-10-09 13:22:00,776 INFO    SenderThread:2505772 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-10-09 13:22:00,776 INFO    SenderThread:2505772 [file_pusher.py:join():181] waiting for file pusher
+2023-10-09 13:22:00,776 INFO    SenderThread:2505772 [sender.py:transition_state():613] send defer: 12
+2023-10-09 13:22:00,776 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 13:22:00,776 INFO    HandlerThread:2505772 [handler.py:handle_request_defer():172] handle defer: 12
+2023-10-09 13:22:00,776 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: defer
+2023-10-09 13:22:00,776 INFO    SenderThread:2505772 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-10-09 13:22:00,776 INFO    SenderThread:2505772 [file_stream.py:finish():595] file stream finish called
+2023-10-09 13:22:00,948 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-09 13:22:01,798 INFO    SenderThread:2505772 [file_stream.py:finish():599] file stream finish is done
+2023-10-09 13:22:01,798 INFO    SenderThread:2505772 [sender.py:transition_state():613] send defer: 13
+2023-10-09 13:22:01,798 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: poll_exit
+2023-10-09 13:22:01,798 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 13:22:01,799 INFO    HandlerThread:2505772 [handler.py:handle_request_defer():172] handle defer: 13
+2023-10-09 13:22:01,799 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: defer
+2023-10-09 13:22:01,799 INFO    SenderThread:2505772 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-10-09 13:22:01,799 INFO    SenderThread:2505772 [sender.py:transition_state():613] send defer: 14
+2023-10-09 13:22:01,800 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 13:22:01,800 DEBUG   SenderThread:2505772 [sender.py:send():380] send: final
+2023-10-09 13:22:01,800 INFO    HandlerThread:2505772 [handler.py:handle_request_defer():172] handle defer: 14
+2023-10-09 13:22:01,800 DEBUG   SenderThread:2505772 [sender.py:send():380] send: footer
+2023-10-09 13:22:01,800 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: defer
+2023-10-09 13:22:01,800 INFO    SenderThread:2505772 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-10-09 13:22:01,801 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-09 13:22:01,801 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: poll_exit
+2023-10-09 13:22:01,801 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-09 13:22:01,802 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: poll_exit
+2023-10-09 13:22:01,802 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: server_info
+2023-10-09 13:22:01,803 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: server_info
+2023-10-09 13:22:01,804 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: get_summary
+2023-10-09 13:22:01,805 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: sampled_history
+2023-10-09 13:22:01,806 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-09 13:22:01,806 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: job_info
+2023-10-09 13:22:02,105 DEBUG   SenderThread:2505772 [sender.py:send_request():407] send_request: job_info
+2023-10-09 13:22:02,105 INFO    MainThread:2505772 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-09 13:22:02,105 INFO    MainThread:2505772 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-09 13:22:02,106 INFO    MainThread:2505772 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-10-09 13:22:02,106 DEBUG   HandlerThread:2505772 [handler.py:handle_request():146] handle_request: shutdown
+2023-10-09 13:22:02,106 INFO    HandlerThread:2505772 [handler.py:finish():866] shutting down handler
+2023-10-09 13:22:02,807 INFO    WriterThread:2505772 [datastore.py:close():294] close: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_132052-xpsvydhl/run-xpsvydhl.wandb
+2023-10-09 13:22:03,105 INFO    SenderThread:2505772 [sender.py:finish():1534] shutting down sender
+2023-10-09 13:22:03,105 INFO    SenderThread:2505772 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-09 13:22:03,105 INFO    SenderThread:2505772 [file_pusher.py:join():181] waiting for file pusher

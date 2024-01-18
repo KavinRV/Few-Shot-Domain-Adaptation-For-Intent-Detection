@@ -1,0 +1,38 @@
+/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/models/t5/tokenization_t5.py:199: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  warnings.warn(
+You are using the legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This means that tokens that come after special tokens will not be properly handled. We recommend you to read the related pull request available at https://github.com/huggingface/transformers/pull/24565
+/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0%|                                                                                                                                                                                                      | 0/347 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/raid/kavin-intern-maunendra/GenRet/rankt5_da.py", line 227, in <module>
+    trainer.train()
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 2654, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 2679, in compute_loss
+    outputs = model(**inputs)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/raid/kavin-intern-maunendra/GenRet/rankt5_da.py", line 83, in forward
+    print(loss)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/_tensor.py", line 426, in __repr__
+    return torch._tensor_str._str(self, tensor_contents=tensor_contents)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/_tensor_str.py", line 636, in _str
+    return _str_intern(self, tensor_contents=tensor_contents)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/_tensor_str.py", line 567, in _str_intern
+    tensor_str = _tensor_str(self, indent)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/_tensor_str.py", line 327, in _tensor_str
+    formatter = _Formatter(get_summarized_data(self) if summarize else self)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/_tensor_str.py", line 116, in __init__
+    tensor_view, torch.isfinite(tensor_view) & tensor_view.ne(0)
+RuntimeError: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.

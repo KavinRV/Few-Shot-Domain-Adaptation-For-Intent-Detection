@@ -1,0 +1,147 @@
+/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0%|                                                                                                                                                          | 0/4719 [00:00<?, ?it/s]You're using a RobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  2%|███                                                                                                                                           | 100/4719 [03:38<2:50:43,  2.22s/it]
+  4%|██████                                                                                                                                            | 29/697 [00:01<00:37, 17.80it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌      | 666/697 [00:41<00:02, 14.75it/s]
+  2%|███                                                                                                                                           | 100/4719 [04:21<2:50:43,  2.22s/it]Traceback (most recent call last):
+  File "/raid/kavin-intern-maunendra/GenRet/large.py", line 259, in <module>
+    trainer.train()
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 1901, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 2237, in _maybe_log_save_evaluate
+    self._save_checkpoint(model, trial, metrics=metrics)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 2294, in _save_checkpoint
+    self.save_model(output_dir, _internal_call=True)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 2769, in save_model
+    self._save(output_dir)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 2827, in _save
+    self.model.save_pretrained(
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/modeling_utils.py", line 1847, in save_pretrained
+    save_function(shard, os.path.join(save_directory, shard_file))
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/serialization.py", line 441, in save
+    _save(obj, opened_zipfile, pickle_module, pickle_protocol)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/serialization.py", line 668, in _save
+    zip_file.write_record(name, storage.data_ptr(), num_bytes)
+KeyboardInterrupt

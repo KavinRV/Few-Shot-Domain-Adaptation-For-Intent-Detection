@@ -1,0 +1,108 @@
+
+Downloading readme: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 552/552 [00:00<00:00, 2.27MB/s]
+Downloading data files:   0%|                                                                                                                                                                                           | 0/1 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Downloading data files: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:59<00:00, 59.56s/it]
+Extracting data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 1062.93it/s]
+Generating train split: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 552890/552890 [00:01<00:00, 502881.17 examples/s]
+Downloading (…)okenizer_config.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:00<00:00, 988kB/s]
+
+Downloading tokenizer.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17.1M/17.1M [00:01<00:00, 8.83MB/s]
+Downloading (…)cial_tokens_map.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 280/280 [00:00<00:00, 785kB/s]
+Downloading (…)lve/main/config.json: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4.07k/4.07k [00:00<00:00, 10.8MB/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Downloading model.safetensors: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.11G/1.11G [00:52<00:00, 21.2MB/s]
+Some weights of ReRanker were not initialized from the model checkpoint at cartesinus/xlm-r-base-amazon-massive-intent-label_smoothing and are newly initialized because the shapes did not match:
+- classifier.out_proj.bias: found shape torch.Size([60]) in the checkpoint and torch.Size([1]) in the model instantiated
+- classifier.out_proj.weight: found shape torch.Size([60, 768]) in the checkpoint and torch.Size([1, 768]) in the model instantiated
+- roberta.embeddings.word_embeddings.weight: found shape torch.Size([250002, 768]) in the checkpoint and torch.Size([250006, 768]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0%|                                                                                                                                                                                                                 | 0/431 [00:00<?, ?it/s]You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  7%|██████████████▋                                                                                                                                                                                       | 32/431 [07:07<1:28:38, 13.33s/it]Traceback (most recent call last):
+  File "/raid/kavin-intern-maunendra/GenRet/train_da.py", line 211, in <module>
+    trainer.train()
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 2665, in training_step
+    self.accelerator.backward(loss)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/accelerate/accelerator.py", line 1853, in backward
+    loss.backward(**kwargs)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

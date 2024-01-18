@@ -1,0 +1,32 @@
+/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/models/t5/tokenization_t5.py:199: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  warnings.warn(
+You are using the legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This means that tokens that come after special tokens will not be properly handled. We recommend you to read the related pull request available at https://github.com/huggingface/transformers/pull/24565
+Traceback (most recent call last):
+  File "/raid/kavin-intern-maunendra/GenRet/rankt5_da.py", line 211, in <module>
+    trainer = CustomTrainer(
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer_seq2seq.py", line 56, in __init__
+    super().__init__(
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 499, in __init__
+    self._move_model_to_device(model, args.device)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 741, in _move_model_to_device
+    model = model.to(device)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/modeling_utils.py", line 1900, in to
+    return super().to(*args, **kwargs)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1145, in to
+    return self._apply(convert)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 797, in _apply
+    module._apply(fn)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 797, in _apply
+    module._apply(fn)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 797, in _apply
+    module._apply(fn)
+  [Previous line repeated 4 more times]
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 820, in _apply
+    param_applied = fn(param)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1143, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+KeyboardInterrupt

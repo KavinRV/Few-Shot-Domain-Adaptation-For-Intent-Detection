@@ -1,0 +1,28 @@
+/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0%|                                                                                                                                                          | 0/4719 [00:00<?, ?it/s]You're using a RobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+Traceback (most recent call last):
+  File "/raid/kavin-intern-maunendra/GenRet/large.py", line 259, in <module>
+    trainer.train()
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 2654, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 2679, in compute_loss
+    outputs = model(**inputs)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/accelerate/utils/operations.py", line 581, in forward
+    return model_forward(*args, **kwargs)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/accelerate/utils/operations.py", line 569, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 14, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/raid/kavin-intern-maunendra/GenRet/large.py", line 89, in forward
+    domain_logits = self.domain_classifier(self.grl(out.hidden_states[-1])).view(-1, self.n_pass, self.num_domain).sum(dim=1)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1614, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'ReRanker' object has no attribute 'num_domain'
+1

@@ -1,0 +1,95 @@
+Some weights of ReRanker were not initialized from the model checkpoint at xlm-roberta-base and are newly initialized: ['domain_classifier.out_proj.weight', 'domain_classifier.out_proj.bias', 'classifier.out_proj.weight', 'classifier.out_proj.bias', 'classifier.dense.bias', 'domain_classifier.dense.weight', 'classifier.dense.weight', 'domain_classifier.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0%|                                                                                                                                                           | 0/529 [00:00<?, ?it/s]You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  6%|████████▏                                                                                                                                       | 30/529 [03:49<1:01:01,  7.34s/it]
+  1%|█▊                                                                                                                                                 | 7/580 [00:00<01:19,  7.24it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊| 579/580 [01:21<00:00,  7.10it/s]
+  6%|████████▏                                                                                                                                       | 30/529 [05:11<1:01:01,  7.34s/it]Traceback (most recent call last):
+  File "/raid/kavin-intern-maunendra/GenRet/train_da.py", line 250, in <module>
+    trainer.train()
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 1901, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 2237, in _maybe_log_save_evaluate
+    self._save_checkpoint(model, trial, metrics=metrics)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/transformers/trainer.py", line 2342, in _save_checkpoint
+    torch.save(self.optimizer.state_dict(), os.path.join(output_dir, OPTIMIZER_NAME))
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/serialization.py", line 441, in save
+    _save(obj, opened_zipfile, pickle_module, pickle_protocol)
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/serialization.py", line 665, in _save
+    storage = storage.cpu()
+  File "/raid/kavin-intern-maunendra/anaconda3/envs/wow/lib/python3.10/site-packages/torch/storage.py", line 121, in cpu
+    return torch.UntypedStorage(self.size()).copy_(self, False)
+KeyboardInterrupt

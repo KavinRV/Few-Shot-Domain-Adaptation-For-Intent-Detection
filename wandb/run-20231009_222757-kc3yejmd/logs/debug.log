@@ -1,0 +1,27 @@
+2023-10-09 22:27:57,180 INFO    MainThread:2828902 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-09 22:27:57,180 INFO    MainThread:2828902 [wandb_setup.py:_flush():76] Configure stats pid to 2828902
+2023-10-09 22:27:57,180 INFO    MainThread:2828902 [wandb_setup.py:_flush():76] Loading settings from /raid/kavin-intern-maunendra/.config/wandb/settings
+2023-10-09 22:27:57,180 INFO    MainThread:2828902 [wandb_setup.py:_flush():76] Loading settings from /raid/kavin-intern-maunendra/GenRet/wandb/settings
+2023-10-09 22:27:57,180 INFO    MainThread:2828902 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-10-09 22:27:57,180 INFO    MainThread:2828902 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-09 22:27:57,180 INFO    MainThread:2828902 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'rankt5_da.py', 'program_abspath': '/raid/kavin-intern-maunendra/GenRet/rankt5_da.py', 'program': '/raid/kavin-intern-maunendra/GenRet/rankt5_da.py'}
+2023-10-09 22:27:57,180 INFO    MainThread:2828902 [wandb_init.py:_log_setup():528] Logging user logs to /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/logs/debug.log
+2023-10-09 22:27:57,180 INFO    MainThread:2828902 [wandb_init.py:_log_setup():529] Logging internal logs to /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/logs/debug-internal.log
+2023-10-09 22:27:57,180 INFO    MainThread:2828902 [wandb_init.py:init():568] calling init triggers
+2023-10-09 22:27:57,180 INFO    MainThread:2828902 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {'learning_rate': 2e-05, 'architecture': 'Rank-T5', 'dataset': 'massive_sur_eng', 'epochs': 4}
+2023-10-09 22:27:57,180 INFO    MainThread:2828902 [wandb_init.py:init():618] starting backend
+2023-10-09 22:27:57,180 INFO    MainThread:2828902 [wandb_init.py:init():622] setting up manager
+2023-10-09 22:27:57,182 INFO    MainThread:2828902 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-09 22:27:57,183 INFO    MainThread:2828902 [wandb_init.py:init():628] backend started and connected
+2023-10-09 22:27:57,185 INFO    MainThread:2828902 [wandb_init.py:init():720] updated telemetry
+2023-10-09 22:27:57,186 INFO    MainThread:2828902 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-09 22:27:57,974 INFO    MainThread:2828902 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-09 22:27:58,220 INFO    MainThread:2828902 [wandb_run.py:_on_init():2229] got version response 
+2023-10-09 22:27:58,220 INFO    MainThread:2828902 [wandb_init.py:init():804] starting run threads in backend
+2023-10-09 22:28:02,129 INFO    MainThread:2828902 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-09 22:28:02,129 INFO    MainThread:2828902 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-09 22:28:02,129 INFO    MainThread:2828902 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-09 22:28:02,129 INFO    MainThread:2828902 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-09 22:28:02,131 INFO    MainThread:2828902 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-09 22:28:25,107 WARNING MsgRouterThr:2828902 [router.py:message_loop():77] message_loop has been closed

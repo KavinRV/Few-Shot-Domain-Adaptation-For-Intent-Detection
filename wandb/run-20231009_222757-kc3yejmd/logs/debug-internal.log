@@ -1,0 +1,199 @@
+2023-10-09 22:27:57,183 INFO    StreamThr :2829042 [internal.py:wandb_internal():86] W&B internal server running at pid: 2829042, started at: 2023-10-09 22:27:57.183294
+2023-10-09 22:27:57,185 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: status
+2023-10-09 22:27:57,186 INFO    WriterThread:2829042 [datastore.py:open_for_write():85] open: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/run-kc3yejmd.wandb
+2023-10-09 22:27:57,188 DEBUG   SenderThread:2829042 [sender.py:send():380] send: header
+2023-10-09 22:27:57,188 DEBUG   SenderThread:2829042 [sender.py:send():380] send: run
+2023-10-09 22:27:57,969 INFO    SenderThread:2829042 [dir_watcher.py:__init__():211] watching files in: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files
+2023-10-09 22:27:57,969 INFO    SenderThread:2829042 [sender.py:_start_run_threads():1122] run started: kc3yejmd with start time 1696870677.183474
+2023-10-09 22:27:57,974 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: check_version
+2023-10-09 22:27:57,975 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: check_version
+2023-10-09 22:27:58,225 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: run_start
+2023-10-09 22:27:58,231 DEBUG   HandlerThread:2829042 [system_info.py:__init__():32] System info init
+2023-10-09 22:27:58,232 DEBUG   HandlerThread:2829042 [system_info.py:__init__():47] System info init done
+2023-10-09 22:27:58,232 INFO    HandlerThread:2829042 [system_monitor.py:start():194] Starting system monitor
+2023-10-09 22:27:58,232 INFO    SystemMonitor:2829042 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-09 22:27:58,233 INFO    HandlerThread:2829042 [system_monitor.py:probe():214] Collecting system info
+2023-10-09 22:27:58,233 INFO    SystemMonitor:2829042 [interfaces.py:start():190] Started cpu monitoring
+2023-10-09 22:27:58,234 INFO    SystemMonitor:2829042 [interfaces.py:start():190] Started disk monitoring
+2023-10-09 22:27:58,234 INFO    SystemMonitor:2829042 [interfaces.py:start():190] Started gpu monitoring
+2023-10-09 22:27:58,235 INFO    SystemMonitor:2829042 [interfaces.py:start():190] Started memory monitoring
+2023-10-09 22:27:58,236 INFO    SystemMonitor:2829042 [interfaces.py:start():190] Started network monitoring
+2023-10-09 22:27:58,293 DEBUG   HandlerThread:2829042 [system_info.py:probe():196] Probing system
+2023-10-09 22:27:58,294 DEBUG   HandlerThread:2829042 [gitlib.py:_init_repo():53] git repository is invalid
+2023-10-09 22:27:58,295 DEBUG   HandlerThread:2829042 [system_info.py:probe():244] Probing system done
+2023-10-09 22:27:58,295 DEBUG   HandlerThread:2829042 [system_monitor.py:probe():223] {'os': 'Linux-5.4.0-121-generic-x86_64-with-glibc2.31', 'python': '3.10.13', 'heartbeatAt': '2023-10-09T16:57:58.293252', 'startedAt': '2023-10-09T16:57:57.178583', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/raid/kavin-intern-maunendra/GenRet/rankt5_da.py', 'codePathLocal': 'rankt5_da.py', 'codePath': 'rankt5_da.py', 'host': 'dgx1-2', 'username': 'kavin-intern-maunendra', 'executable': '/raid/kavin-intern-maunendra/anaconda3/envs/wow/bin/python', 'cpu_count': 40, 'cpu_count_logical': 80, 'cpu_freq': {'current': 2.8329375000000008, 'min': 1200.0, 'max': 3600.0}, 'cpu_freq_per_core': [{'current': 2.696, 'min': 1200.0, 'max': 3600.0}, {'current': 2.694, 'min': 1200.0, 'max': 3600.0}, {'current': 2.694, 'min': 1200.0, 'max': 3600.0}, {'current': 2.764, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.793, 'min': 1200.0, 'max': 3600.0}, {'current': 2.694, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.872, 'min': 1200.0, 'max': 3600.0}, {'current': 2.694, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.694, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.695, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.912, 'min': 1200.0, 'max': 3600.0}, {'current': 2.808, 'min': 1200.0, 'max': 3600.0}, {'current': 2.768, 'min': 1200.0, 'max': 3600.0}, {'current': 2.98, 'min': 1200.0, 'max': 3600.0}, {'current': 2.838, 'min': 1200.0, 'max': 3600.0}, {'current': 2.727, 'min': 1200.0, 'max': 3600.0}, {'current': 2.776, 'min': 1200.0, 'max': 3600.0}, {'current': 3.078, 'min': 1200.0, 'max': 3600.0}, {'current': 2.845, 'min': 1200.0, 'max': 3600.0}, {'current': 2.726, 'min': 1200.0, 'max': 3600.0}, {'current': 2.769, 'min': 1200.0, 'max': 3600.0}, {'current': 3.055, 'min': 1200.0, 'max': 3600.0}, {'current': 2.871, 'min': 1200.0, 'max': 3600.0}, {'current': 2.944, 'min': 1200.0, 'max': 3600.0}, {'current': 3.009, 'min': 1200.0, 'max': 3600.0}, {'current': 2.842, 'min': 1200.0, 'max': 3600.0}, {'current': 2.724, 'min': 1200.0, 'max': 3600.0}, {'current': 2.798, 'min': 1200.0, 'max': 3600.0}, {'current': 2.894, 'min': 1200.0, 'max': 3600.0}, {'current': 2.858, 'min': 1200.0, 'max': 3600.0}, {'current': 2.694, 'min': 1200.0, 'max': 3600.0}, {'current': 2.694, 'min': 1200.0, 'max': 3600.0}, {'current': 2.694, 'min': 1200.0, 'max': 3600.0}, {'current': 2.901, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.947, 'min': 1200.0, 'max': 3600.0}, {'current': 2.694, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.88, 'min': 1200.0, 'max': 3600.0}, {'current': 2.694, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.694, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.694, 'min': 1200.0, 'max': 3600.0}, {'current': 2.696, 'min': 1200.0, 'max': 3600.0}, {'current': 2.693, 'min': 1200.0, 'max': 3600.0}, {'current': 2.694, 'min': 1200.0, 'max': 3600.0}, {'current': 2.917, 'min': 1200.0, 'max': 3600.0}, {'current': 2.816, 'min': 1200.0, 'max': 3600.0}, {'current': 2.786, 'min': 1200.0, 'max': 3600.0}, {'current': 3.002, 'min': 1200.0, 'max': 3600.0}, {'current': 2.968, 'min': 1200.0, 'max': 3600.0}, {'current': 2.994, 'min': 1200.0, 'max': 3600.0}, {'current': 2.732, 'min': 1200.0, 'max': 3600.0}, {'current': 2.78, 'min': 1200.0, 'max': 3600.0}, {'current': 2.764, 'min': 1200.0, 'max': 3600.0}, {'current': 2.85, 'min': 1200.0, 'max': 3600.0}, {'current': 2.858, 'min': 1200.0, 'max': 3600.0}, {'current': 2.811, 'min': 1200.0, 'max': 3600.0}, {'current': 2.804, 'min': 1200.0, 'max': 3600.0}, {'current': 2.78, 'min': 1200.0, 'max': 3600.0}, {'current': 3.118, 'min': 1200.0, 'max': 3600.0}, {'current': 2.975, 'min': 1200.0, 'max': 3600.0}, {'current': 2.882, 'min': 1200.0, 'max': 3600.0}, {'current': 2.819, 'min': 1200.0, 'max': 3600.0}, {'current': 2.706, 'min': 1200.0, 'max': 3600.0}, {'current': 3.052, 'min': 1200.0, 'max': 3600.0}], 'disk': {'/': {'total': 437.0158004760742, 'used': 364.3726043701172}}, 'gpu': 'Tesla V100-SXM2-32GB', 'gpu_count': 8, 'gpu_devices': [{'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34089730048}], 'memory': {'total': 503.77836990356445}}
+2023-10-09 22:27:58,295 INFO    HandlerThread:2829042 [system_monitor.py:probe():224] Finished collecting system info
+2023-10-09 22:27:58,295 INFO    HandlerThread:2829042 [system_monitor.py:probe():227] Publishing system info
+2023-10-09 22:27:58,295 DEBUG   HandlerThread:2829042 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-09 22:27:58,295 DEBUG   HandlerThread:2829042 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-09 22:27:58,295 DEBUG   HandlerThread:2829042 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-09 22:27:58,971 INFO    Thread-12 :2829042 [dir_watcher.py:_on_file_created():271] file/dir created: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/requirements.txt
+2023-10-09 22:27:58,971 INFO    Thread-12 :2829042 [dir_watcher.py:_on_file_created():271] file/dir created: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/conda-environment.yaml
+2023-10-09 22:28:01,971 INFO    Thread-12 :2829042 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/conda-environment.yaml
+2023-10-09 22:28:02,118 DEBUG   HandlerThread:2829042 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-09 22:28:02,120 INFO    HandlerThread:2829042 [system_monitor.py:probe():229] Finished publishing system info
+2023-10-09 22:28:02,123 DEBUG   SenderThread:2829042 [sender.py:send():380] send: files
+2023-10-09 22:28:02,123 INFO    SenderThread:2829042 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-09 22:28:02,130 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-09 22:28:02,131 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-09 22:28:02,131 DEBUG   SenderThread:2829042 [sender.py:send():380] send: telemetry
+2023-10-09 22:28:02,132 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: stop_status
+2023-10-09 22:28:02,652 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 22:28:02,971 INFO    Thread-12 :2829042 [dir_watcher.py:_on_file_created():271] file/dir created: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/wandb-metadata.json
+2023-10-09 22:28:03,245 INFO    wandb-upload_0:2829042 [upload_job.py:push():131] Uploaded file /tmp/tmpodn5azxxwandb/836k4co1-wandb-metadata.json
+2023-10-09 22:28:07,653 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 22:28:11,975 INFO    Thread-12 :2829042 [dir_watcher.py:_on_file_created():271] file/dir created: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/output.log
+2023-10-09 22:28:13,204 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 22:28:13,975 INFO    Thread-12 :2829042 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/output.log
+2023-10-09 22:28:17,273 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-09 22:28:17,274 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: stop_status
+2023-10-09 22:28:17,274 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-09 22:28:17,933 DEBUG   SenderThread:2829042 [sender.py:send():380] send: exit
+2023-10-09 22:28:17,933 INFO    SenderThread:2829042 [sender.py:send_exit():585] handling exit code: 1
+2023-10-09 22:28:17,934 INFO    SenderThread:2829042 [sender.py:send_exit():587] handling runtime: 19
+2023-10-09 22:28:17,935 INFO    SenderThread:2829042 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 22:28:17,936 INFO    SenderThread:2829042 [sender.py:send_exit():593] send defer
+2023-10-09 22:28:17,936 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 22:28:17,936 INFO    HandlerThread:2829042 [handler.py:handle_request_defer():172] handle defer: 0
+2023-10-09 22:28:17,937 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: defer
+2023-10-09 22:28:17,937 INFO    SenderThread:2829042 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-10-09 22:28:17,937 INFO    SenderThread:2829042 [sender.py:transition_state():613] send defer: 1
+2023-10-09 22:28:17,937 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 22:28:17,937 INFO    HandlerThread:2829042 [handler.py:handle_request_defer():172] handle defer: 1
+2023-10-09 22:28:17,937 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: defer
+2023-10-09 22:28:17,938 INFO    SenderThread:2829042 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-10-09 22:28:17,938 INFO    SenderThread:2829042 [sender.py:transition_state():613] send defer: 2
+2023-10-09 22:28:17,938 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 22:28:17,938 INFO    HandlerThread:2829042 [handler.py:handle_request_defer():172] handle defer: 2
+2023-10-09 22:28:17,938 INFO    HandlerThread:2829042 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-09 22:28:17,938 DEBUG   SystemMonitor:2829042 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-09 22:28:17,939 INFO    HandlerThread:2829042 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-09 22:28:17,939 DEBUG   SystemMonitor:2829042 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-09 22:28:17,939 INFO    HandlerThread:2829042 [interfaces.py:finish():202] Joined disk monitor
+2023-10-09 22:28:17,940 DEBUG   SystemMonitor:2829042 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-09 22:28:17,977 INFO    Thread-12 :2829042 [dir_watcher.py:_on_file_created():271] file/dir created: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/wandb-summary.json
+2023-10-09 22:28:19,600 INFO    HandlerThread:2829042 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-09 22:28:19,601 INFO    HandlerThread:2829042 [interfaces.py:finish():202] Joined memory monitor
+2023-10-09 22:28:19,601 INFO    HandlerThread:2829042 [interfaces.py:finish():202] Joined network monitor
+2023-10-09 22:28:19,601 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-09 22:28:19,602 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 22:28:19,602 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: defer
+2023-10-09 22:28:19,603 INFO    SenderThread:2829042 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-10-09 22:28:19,603 INFO    SenderThread:2829042 [sender.py:transition_state():613] send defer: 3
+2023-10-09 22:28:19,603 DEBUG   SenderThread:2829042 [sender.py:send():380] send: stats
+2023-10-09 22:28:19,603 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 22:28:19,604 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: poll_exit
+2023-10-09 22:28:19,604 INFO    HandlerThread:2829042 [handler.py:handle_request_defer():172] handle defer: 3
+2023-10-09 22:28:19,605 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: defer
+2023-10-09 22:28:19,605 INFO    SenderThread:2829042 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-10-09 22:28:19,605 INFO    SenderThread:2829042 [sender.py:transition_state():613] send defer: 4
+2023-10-09 22:28:19,605 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 22:28:19,605 INFO    HandlerThread:2829042 [handler.py:handle_request_defer():172] handle defer: 4
+2023-10-09 22:28:19,605 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: defer
+2023-10-09 22:28:19,605 INFO    SenderThread:2829042 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-10-09 22:28:19,605 INFO    SenderThread:2829042 [sender.py:transition_state():613] send defer: 5
+2023-10-09 22:28:19,606 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 22:28:19,606 INFO    HandlerThread:2829042 [handler.py:handle_request_defer():172] handle defer: 5
+2023-10-09 22:28:19,606 DEBUG   SenderThread:2829042 [sender.py:send():380] send: summary
+2023-10-09 22:28:19,606 INFO    SenderThread:2829042 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-09 22:28:19,607 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: defer
+2023-10-09 22:28:19,607 INFO    SenderThread:2829042 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-10-09 22:28:19,607 INFO    SenderThread:2829042 [sender.py:transition_state():613] send defer: 6
+2023-10-09 22:28:19,607 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 22:28:19,607 INFO    HandlerThread:2829042 [handler.py:handle_request_defer():172] handle defer: 6
+2023-10-09 22:28:19,607 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: defer
+2023-10-09 22:28:19,607 INFO    SenderThread:2829042 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-10-09 22:28:19,612 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: status_report
+2023-10-09 22:28:19,939 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-09 22:28:19,940 INFO    SenderThread:2829042 [sender.py:transition_state():613] send defer: 7
+2023-10-09 22:28:19,940 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: poll_exit
+2023-10-09 22:28:19,940 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 22:28:19,940 INFO    HandlerThread:2829042 [handler.py:handle_request_defer():172] handle defer: 7
+2023-10-09 22:28:19,941 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: defer
+2023-10-09 22:28:19,941 INFO    SenderThread:2829042 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-10-09 22:28:19,979 INFO    Thread-12 :2829042 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/wandb-summary.json
+2023-10-09 22:28:19,979 INFO    Thread-12 :2829042 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/config.yaml
+2023-10-09 22:28:19,980 INFO    Thread-12 :2829042 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/output.log
+2023-10-09 22:28:20,941 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-09 22:28:21,931 INFO    SenderThread:2829042 [sender.py:transition_state():613] send defer: 8
+2023-10-09 22:28:21,932 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: poll_exit
+2023-10-09 22:28:21,932 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 22:28:21,932 INFO    HandlerThread:2829042 [handler.py:handle_request_defer():172] handle defer: 8
+2023-10-09 22:28:21,932 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: defer
+2023-10-09 22:28:21,933 INFO    SenderThread:2829042 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-10-09 22:28:21,933 INFO    SenderThread:2829042 [job_builder.py:build():281] Attempting to build job artifact
+2023-10-09 22:28:21,933 INFO    SenderThread:2829042 [job_builder.py:_get_source_type():404] no source found
+2023-10-09 22:28:21,934 INFO    SenderThread:2829042 [sender.py:transition_state():613] send defer: 9
+2023-10-09 22:28:21,934 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 22:28:21,934 INFO    HandlerThread:2829042 [handler.py:handle_request_defer():172] handle defer: 9
+2023-10-09 22:28:21,934 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: defer
+2023-10-09 22:28:21,934 INFO    SenderThread:2829042 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-10-09 22:28:21,934 INFO    SenderThread:2829042 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-09 22:28:21,942 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-09 22:28:21,980 INFO    Thread-12 :2829042 [dir_watcher.py:_on_file_modified():288] file/dir modified: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/output.log
+2023-10-09 22:28:21,981 INFO    SenderThread:2829042 [dir_watcher.py:finish():388] scan: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files
+2023-10-09 22:28:21,981 INFO    SenderThread:2829042 [dir_watcher.py:finish():402] scan save: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/output.log output.log
+2023-10-09 22:28:21,981 INFO    SenderThread:2829042 [dir_watcher.py:finish():402] scan save: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/conda-environment.yaml conda-environment.yaml
+2023-10-09 22:28:21,981 INFO    SenderThread:2829042 [dir_watcher.py:finish():402] scan save: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/wandb-metadata.json wandb-metadata.json
+2023-10-09 22:28:21,982 INFO    SenderThread:2829042 [dir_watcher.py:finish():402] scan save: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/config.yaml config.yaml
+2023-10-09 22:28:21,984 INFO    SenderThread:2829042 [dir_watcher.py:finish():402] scan save: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/requirements.txt requirements.txt
+2023-10-09 22:28:21,987 INFO    SenderThread:2829042 [dir_watcher.py:finish():402] scan save: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/wandb-summary.json wandb-summary.json
+2023-10-09 22:28:21,989 INFO    SenderThread:2829042 [sender.py:transition_state():613] send defer: 10
+2023-10-09 22:28:21,989 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: poll_exit
+2023-10-09 22:28:21,991 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 22:28:21,994 INFO    HandlerThread:2829042 [handler.py:handle_request_defer():172] handle defer: 10
+2023-10-09 22:28:21,994 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: defer
+2023-10-09 22:28:21,994 INFO    SenderThread:2829042 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-10-09 22:28:21,994 INFO    SenderThread:2829042 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-09 22:28:22,652 INFO    wandb-upload_0:2829042 [upload_job.py:push():131] Uploaded file /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/output.log
+2023-10-09 22:28:22,817 INFO    wandb-upload_1:2829042 [upload_job.py:push():131] Uploaded file /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/conda-environment.yaml
+2023-10-09 22:28:22,943 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-09 22:28:22,943 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: poll_exit
+2023-10-09 22:28:22,987 INFO    wandb-upload_4:2829042 [upload_job.py:push():131] Uploaded file /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/wandb-summary.json
+2023-10-09 22:28:23,040 INFO    wandb-upload_2:2829042 [upload_job.py:push():131] Uploaded file /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/config.yaml
+2023-10-09 22:28:23,065 INFO    wandb-upload_3:2829042 [upload_job.py:push():131] Uploaded file /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/files/requirements.txt
+2023-10-09 22:28:23,265 INFO    Thread-11 (_thread_body):2829042 [sender.py:transition_state():613] send defer: 11
+2023-10-09 22:28:23,266 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 22:28:23,266 INFO    HandlerThread:2829042 [handler.py:handle_request_defer():172] handle defer: 11
+2023-10-09 22:28:23,266 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: defer
+2023-10-09 22:28:23,267 INFO    SenderThread:2829042 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-10-09 22:28:23,267 INFO    SenderThread:2829042 [file_pusher.py:join():181] waiting for file pusher
+2023-10-09 22:28:23,267 INFO    SenderThread:2829042 [sender.py:transition_state():613] send defer: 12
+2023-10-09 22:28:23,267 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 22:28:23,267 INFO    HandlerThread:2829042 [handler.py:handle_request_defer():172] handle defer: 12
+2023-10-09 22:28:23,267 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: defer
+2023-10-09 22:28:23,267 INFO    SenderThread:2829042 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-10-09 22:28:23,267 INFO    SenderThread:2829042 [file_stream.py:finish():595] file stream finish called
+2023-10-09 22:28:23,571 INFO    SenderThread:2829042 [file_stream.py:finish():599] file stream finish is done
+2023-10-09 22:28:23,571 INFO    SenderThread:2829042 [sender.py:transition_state():613] send defer: 13
+2023-10-09 22:28:23,571 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 22:28:23,571 INFO    HandlerThread:2829042 [handler.py:handle_request_defer():172] handle defer: 13
+2023-10-09 22:28:23,571 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: defer
+2023-10-09 22:28:23,571 INFO    SenderThread:2829042 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-10-09 22:28:23,572 INFO    SenderThread:2829042 [sender.py:transition_state():613] send defer: 14
+2023-10-09 22:28:23,572 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: defer
+2023-10-09 22:28:23,572 DEBUG   SenderThread:2829042 [sender.py:send():380] send: final
+2023-10-09 22:28:23,572 INFO    HandlerThread:2829042 [handler.py:handle_request_defer():172] handle defer: 14
+2023-10-09 22:28:23,572 DEBUG   SenderThread:2829042 [sender.py:send():380] send: footer
+2023-10-09 22:28:23,572 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: defer
+2023-10-09 22:28:23,572 INFO    SenderThread:2829042 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-10-09 22:28:23,573 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-09 22:28:23,573 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: poll_exit
+2023-10-09 22:28:23,574 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-09 22:28:23,574 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: server_info
+2023-10-09 22:28:23,574 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: get_summary
+2023-10-09 22:28:23,575 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: poll_exit
+2023-10-09 22:28:23,575 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: sampled_history
+2023-10-09 22:28:23,575 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: server_info
+2023-10-09 22:28:23,577 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-09 22:28:23,578 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: job_info
+2023-10-09 22:28:23,856 DEBUG   SenderThread:2829042 [sender.py:send_request():407] send_request: job_info
+2023-10-09 22:28:23,857 INFO    MainThread:2829042 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-09 22:28:23,857 INFO    MainThread:2829042 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-09 22:28:23,857 INFO    MainThread:2829042 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-10-09 22:28:23,858 DEBUG   HandlerThread:2829042 [handler.py:handle_request():146] handle_request: shutdown
+2023-10-09 22:28:23,858 INFO    HandlerThread:2829042 [handler.py:finish():866] shutting down handler
+2023-10-09 22:28:24,578 INFO    WriterThread:2829042 [datastore.py:close():294] close: /raid/kavin-intern-maunendra/GenRet/wandb/run-20231009_222757-kc3yejmd/run-kc3yejmd.wandb
+2023-10-09 22:28:24,857 INFO    SenderThread:2829042 [sender.py:finish():1534] shutting down sender
+2023-10-09 22:28:24,857 INFO    SenderThread:2829042 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-09 22:28:24,857 INFO    SenderThread:2829042 [file_pusher.py:join():181] waiting for file pusher

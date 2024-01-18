@@ -1,0 +1,470 @@
+{
+    "os": "Linux-5.4.0-121-generic-x86_64-with-glibc2.31",
+    "python": "3.10.13",
+    "heartbeatAt": "2023-10-14T03:47:30.744858",
+    "startedAt": "2023-10-14T03:47:29.567740",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/raid/kavin-intern-maunendra/GenRet/roberta.py",
+    "codePathLocal": "roberta.py",
+    "codePath": "roberta.py",
+    "host": "dgx1-2",
+    "username": "kavin-intern-maunendra",
+    "executable": "/raid/kavin-intern-maunendra/anaconda3/envs/wow/bin/python3",
+    "cpu_count": 40,
+    "cpu_count_logical": 80,
+    "cpu_freq": {
+        "current": 2.9658,
+        "min": 1200.0,
+        "max": 3600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3.098,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.227,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.098,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.033,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.023,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.15,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.936,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.913,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.902,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.084,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.936,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.859,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.859,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.856,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.855,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.857,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.975,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.914,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.941,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.887,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.076,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.196,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.903,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.828,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.792,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.778,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.851,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.207,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.195,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.903,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.986,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.929,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.831,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.975,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.08,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.817,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.814,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.817,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.869,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.955,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.254,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.272,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.07,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.954,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.272,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.039,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.979,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.917,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.264,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.982,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.017,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.84,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.84,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.857,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.876,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.901,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.042,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.006,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.995,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.276,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.039,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.012,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.875,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.774,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.933,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.707,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.214,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.731,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.203,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.798,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.243,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.201,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.975,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.071,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.136,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.862,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.84,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.823,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.934,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.254,
+            "min": 1200.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 437.0158004760742,
+            "used": 365.0519371032715
+        }
+    },
+    "gpu": "Tesla V100-SXM2-32GB",
+    "gpu_count": 8,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-SXM2-32GB",
+            "memory_total": 34089730048
+        },
+        {
+            "name": "Tesla V100-SXM2-32GB",
+            "memory_total": 34089730048
+        },
+        {
+            "name": "Tesla V100-SXM2-32GB",
+            "memory_total": 34089730048
+        },
+        {
+            "name": "Tesla V100-SXM2-32GB",
+            "memory_total": 34089730048
+        },
+        {
+            "name": "Tesla V100-SXM2-32GB",
+            "memory_total": 34089730048
+        },
+        {
+            "name": "Tesla V100-SXM2-32GB",
+            "memory_total": 34089730048
+        },
+        {
+            "name": "Tesla V100-SXM2-32GB",
+            "memory_total": 34089730048
+        },
+        {
+            "name": "Tesla V100-SXM2-32GB",
+            "memory_total": 34089730048
+        }
+    ],
+    "memory": {
+        "total": 503.77836990356445
+    }
+}
