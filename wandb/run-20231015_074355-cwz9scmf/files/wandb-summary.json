@@ -1,1 +1,0 @@
-{"overall_loss": 2.9019532203674316, "loss": 1.484375, "da_loss": 2.835156202316284, "_timestamp": 1697336418.4899533, "_runtime": 383.2048032283783, "_step": 1600, "train/loss": 3.0395, "train/learning_rate": 1.9597372324645055e-05, "train/epoch": 0.02, "train/global_step": 100, "_wandb": {"runtime": 382}}
